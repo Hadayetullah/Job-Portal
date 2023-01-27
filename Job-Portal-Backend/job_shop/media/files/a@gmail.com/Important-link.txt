@@ -1,0 +1,2 @@
+Image url to Image file:
+https://stackoverflow.com/questions/54983591/image-url-to-file-object-using-js

@@ -1,0 +1,31 @@
+01. node must be installed on your computer
+02. git must be installed on your computer
+03. Create react app:
+	npm init react-app burger-builder
+
+04. Create a new repository on github
+05. Run a command in VSCode in react app project for github dependencies:
+	npm install gh-pages --save-dev
+
+06. Add a url on the top of name element in package.json file:
+	"homepage": "http://nameOfGithubAccount.github.io/nameOfReactApp"
+	"homepage": "http://Hadayetullah/github.io/react-burger-builder-project"
+
+07. Add two scripts on the very top in scripts in package.json:
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d build",
+
+08. Run a command given by github which is the destination to upload react app file:
+	git remote add origin https://github.com/Hadayetullah/react-burger-builder-project.git
+
+09. Add a commit using git
+10. Run this command to ready the project to deploy in github:
+	npm run deploy
+
+11. Run final command:
+	git push -u origin main
+	or
+	git push -u origin master
+
+Find url of existing project:
+	git remote show origin

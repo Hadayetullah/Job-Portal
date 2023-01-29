@@ -7,5 +7,5 @@ First Step:
 
 Second Step:
 01. Open directory Job-Portal-Frontend and then go to job_shop directory and open command prompt in job_shop directory
-02. Run [npm install]
-03. Run [npm start]
+02. Run this command [npm install]
+03. Run this command [npm start]
